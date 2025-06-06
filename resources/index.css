@@ -444,3 +444,23 @@ header .fondo{
     padding-left: 2rem;
     padding-right: 2rem;
 }
+
+.fw-bold{
+    font-weight: bold;
+}
+
+.contenido-3{
+    background-color: #FFD6FF;
+    border-radius: 2px;
+    padding: 20px 10px 5px 10px;
+}
+
+.gap-2{
+    display: grid;
+    gap: 1rem;
+}
+
+.contenedor{
+    margin: auto;
+    width: 80%;
+}
