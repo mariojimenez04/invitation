@@ -452,6 +452,7 @@ header .fondo{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .p-2{
@@ -555,4 +556,35 @@ header .fondo{
 
 .t-none{
     text-decoration: none;
+}
+
+@media (min-width: 850px){
+  .fs-5{
+    font-size: 5rem;
+  }
+  .fs-3{
+    font-size: 3rem;
+  }
+  .text-time{
+    font-size: 2.3rem;
+  }
+  .fs-2{
+    font-size: 2.2rem;
+  }
+  .img-2{
+    height: 25rem;
+  }
+  .center{
+    display: grid;
+    justify-content: center;
+  }
+  .fs-6{
+    font-size: 2.2rem;
+  }
+  .btn-pink{
+    font-size: 1.6rem;
+  }
+  .mt-2{
+    margin-top: 3.5rem;
+  }
 }
