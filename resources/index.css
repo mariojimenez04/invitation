@@ -351,7 +351,7 @@ template {
 
 body{
     background: #FFD6FF;
-    background: linear-gradient(180deg,rgba(255, 214, 255, 0.6) 0%, rgba(255, 244, 255, 1) 10%, rgba(255, 255, 255, 1) 90%, rgba(255, 214, 255, 0.6) 100%);
+background: linear-gradient(180deg,rgba(255, 214, 255, 0.6) 0%, rgba(255, 244, 255, 1) 20%, rgba(255, 255, 255, 1) 80%, rgba(255, 214, 255, 0.6) 100%);
 }
 
 h2{
@@ -387,7 +387,8 @@ p{
 }
 
 .img-1{
-    width: 150px;
+    /* width: 150px; */
+    max-width: 55%;
 }
 
 .img-2{
@@ -426,12 +427,25 @@ header .fondo{
     margin-top: 3rem;
 }
 
+.mt-2{
+    margin-top: 2rem;
+}
+
+.mb-2{
+    margin-bottom: 2rem;
+}
+
 .fs-2{
     font-size: 1.2rem;
 }
 
 .container {
     max-width: 90%;
+    margin: auto;
+}
+
+.ff-m{
+    font-family: "Montserrat", sans-serif !important;
 }
 
 .center{
@@ -445,14 +459,37 @@ header .fondo{
     padding-right: 2rem;
 }
 
+.p-0{
+    padding: 0 !important;
+}
+
+.p2{
+    padding: 2rem;
+}
+.m-0{
+    margin: 0 !important;
+}
+
+.mt-0{
+    margin-top: 0 !important;
+}
+
+.mb-0{
+    margin-bottom: 0 !important;
+}
+
+.mb-3{
+    margin-bottom: 3rem;
+}
+
 .fw-bold{
     font-weight: bold;
 }
 
 .contenido-3{
-    background-color: #FFD6FF;
+    /* background-color: #FFD6FF; */
     border-radius: 2px;
-    padding: 20px 10px 5px 10px;
+    /* padding: 20px 10px 5px 10px; */
 }
 
 .gap-2{
@@ -463,4 +500,59 @@ header .fondo{
 .contenedor{
     margin: auto;
     width: 80%;
+}
+
+.border-2{
+    border-radius: 2rem;
+}
+
+.mr-2{
+    margin: 1rem 0 1rem 0.9rem;
+}
+.fs-6{
+    font-size: 1.5rem;
+}
+
+.btn-pink{
+    text-decoration: none;
+    padding: 1rem;
+    background-color: #de9fb9;
+    border-radius: 0.5rem;
+    color: #fff;
+    display: block;
+    text-align: center;
+}
+
+.contenido-4{
+    padding: 1rem;
+    background-color: #de9fb9;
+    max-width: 90%;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+}
+
+.t-w{
+    color: #fff;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.linea{
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.bg-grey{
+    background-color: #d7d7d78c;
+}
+
+.t-none{
+    text-decoration: none;
 }
